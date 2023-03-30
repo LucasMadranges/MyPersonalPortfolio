@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Sen-regular';
+    src: url('font_family/Sen-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Sen-bold';
+    src: url('font_family/Sen-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Sen-extra-bold';
+    src: url('font_family/Sen-ExtraBold.ttf') format('truetype');
+}
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Sen-regular';
+}
+
+.grey{
+    background-color: #eee;
+}
+
+.Line{
+    width: 75px;
+    height: 0px;
+    opacity: 0.74;
+    border: 2px solid #000000;
+    transform: rotate(-180deg);
+}
+
+.Chronological_ellipse{
+    box-sizing: border-box;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius:100%
+}
