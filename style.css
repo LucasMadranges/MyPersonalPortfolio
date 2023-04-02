@@ -16,7 +16,7 @@
 *{
     margin:0;
     padding:0;
-    font-family: 'Sen-regular';
+    font-family: 'Sen-regular','sans-serif';
 }
 
 .grey{
@@ -49,4 +49,70 @@ footer{
 .img_footer{
     height: 30px;
     width: 30px;
+}
+
+#who_i_am{
+    background-color: #D0D0D0;
+}
+
+h1{
+    position: absolute;
+    left: 39.74%;
+    right: 39.79%;
+    top: 3.08%;
+    bottom: 96.59%;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    /* leading-trim and text-edge are draft CSS properties.
+    
+    Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+    */
+    leading-trim: both;
+    text-edge: cap;
+    
+    color: #FFFFFF;
+}
+
+h2{
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+}
+
+h3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    text-decoration-line: underline;
+
+    color: #000080;
+}
+
+h4{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #629E4D;
+}
+
+h5{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FF0000;
+}
+
+.formation_img{
+    width:200px;
+    height:auto;
 }
