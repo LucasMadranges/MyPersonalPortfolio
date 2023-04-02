@@ -116,3 +116,39 @@ h5{
     width:200px;
     height:auto;
 }
+
+.competences_img{
+    width: 25px;
+}
+
+.txt_competences{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+progress{
+    -webkit-appearance: none;
+    appearance: none;
+
+    width: 413px;
+    height: 10px;
+}
+
+progress::-webkit-progress-bar{
+    border-radius:50px;
+    background-color: lightgray;
+}
+
+progress::-webkit-progress-value{
+    border-radius:50px;
+}
+
+.competences{
+    background-color: #FFFFFF;
+    width: 600px;
+    height: 50px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
