@@ -2,368 +2,217 @@
 <html lang="fr">
     <head>
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <title>Portfolio Lucas Madranges</title>
+        <title>Mes Projets | Lucas Madranges</title>
+        <link href="style.css"
+              rel="stylesheet">
+        <script defer
+                src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+                type="module"></script>
+        <script defer
+                nomodule
+                src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     </head>
     <body>
-        <!-- AJOUTER BOUTON DE NAVIGATION -->
         <header>
-            <img src="images/Image_fond.png" alt="Image de fond de montagne enneigé à Bonneval-sur-Arc">
-            <h1>Lucas Madranges</h1>
-            <h2>Développeur Web</h2>
+            <img class="img-lucas"
+                 src="img/illustrations/img_lucas.webp">
+            <span>Portfolio's Lucas Madranges</span>
+            <div class="container-link">
+                <a href="https://www.linkedin.com/in/lucas-madranges/"
+                   target="_blank">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+                <a href="https://github.com/LucasMadranges"
+                   target="_blank">
+                    <ion-icon name="logo-github"></ion-icon>
+                </a>
+            </div>
         </header>
-        <aside>
-            <div id="who_i_am">
-                <div class="Line"></div>
-                <h2>Qui suis-je ?</h2>
-                <div class="Line"></div>
-                <p>Un Etudiant
-                    <br>
-                    Un Développeur Web Junior
-                    <br>
-                    Un Streamer Twitch
-                </p>
-                <p><i>"L'échec est le fondement de la réussite."</i> Abraham Lincoln</p>
-            </div>
-            <br>
-            <div class="grey">
-                <div class="Line"></div>
-                <h2>Biographie</h2>
-                <div class="Line"></div>
-                <br>
-                <p>
-                    <!-- REVOIR LA BIOGRAPHIE -->
-                </p>
-            </div>
-            <br>
-            <div>
-                <div id="Chronological_line"></div>
-                <div class="Chronological_ellipse"></div>
-                <div class="Chronological_ellipse"></div>
-                <div class="Chronological_ellipse"></div>
-                <div class="Chronological_ellipse"></div>
-                <div class="Chronological_ellipse"></div>
-                <div class="Chronological_ellipse"></div>
-                <div class="Chronological_ellipse"></div>
-                <div class="Chronological_ellipse"></div>
-                <div class="Chronological_ellipse"></div>
-                <div class="Chronological_ellipse"></div>
-                <div class="Chronological_ellipse"></div>
-                <div class="Chronological_ellipse"></div>
-                <div class="Chronological_ellipse"></div>
-                <div class="Chronological_ellipse"></div>
-                <div class="Chronological_ellipse"></div>
-                <br>
-                <div class="Line"></div>
-                <H2>Mes Formations</H2>
-                <div class="Line"></div>
-                <br>
-                <img class="formation_img" src="images/logo_mda.png" alt="Logo de l'école MyDigitalSchool">
-                <h3>MyDigitalSchool</h3>
-                <h4>Etudiant</h4>
-                <h5>France, Lille (59)</h5>
-                <br>
-                <p>Formation pour l'obtention du Bachelor Développeur Web (Bac +3) à partir de Septembre 2023.</p>
-                <br>
-                <img class="formation_img" src="images/logo_edouard_branly.png" alt="Logo du Lycée Edouard Branly">
-                <h3>Lycée Edouard Branly</h3>
-                <h4>Etudiant</h4>
-                <h5>France, Amiens</h5>
-                <br>
-                <p>Formation pour l'obtention du BTS Sstèmes Numériques option Informatique et Réseaux (Bac +2) de Septembre 2021 à Juin 2023 (actuellement).</p>
-                <br>
-                <img class="formation_img" src="images/Logo_UFCV.jpg" alt="Logo de l'Association UFCV">
-                <h3>Association UFCV</h3>
-                <h4>Apprenti</h4>
-                <h5>France, Amiens</h5>
-                <br>
-                <p>Formation pour l'obtention du BAFA en 3 étapes de juillet 2020 à juin 2021.</p>
-                <br>
-                <img class="formation_img" src="images/logo_edouard_branly.png" alt="Logo du Lycée Edouard Branly">
-                <h3>Lycée Edouard Branly</h3>
-                <h4>Etudiant</h4>
-                <h5>France, Amiens</h5>
-                <br>
-                <p>Formation pour l’obtention du BAC Technologique STI2D option Systèmes d’Information et Numérique de Septembre 2018 à Juin 2021.</p>
-                <br>
-                <img class="formation_img" src="images/logo_villers_bretonneux.jpg" alt="Logo de Villers-Bretonneux">
-                <h3>Collège Jacques-Brel</h3>
-                <h4>Elèves</h4>
-                <h5>France, Villers-Bretonneux</h5>
-                <br>
-                <p>Formation pour l’obtention du Brevet national du collèges de Septembre 2017 à Juin 2018.</p>
-                <br>
-                <div class="Line"></div>
-                <h2>Mes Diplômes</h2>
-                <div class="Line"></div>
-                <br>
-                <img class="formation_img" src="images/logo_edouard_branly.png" alt="Logo du Lycée Edouard Branly">
-                <h3>Lycée Edouard Branly</h3>
-                <h4>Etudiant</h4>
-                <h5>France, Amiens (80)</h5>
-                <br>
-                <p>Diplôme du BTS Systèmes Numériques option Informatique et Réseaux (pas encore obtenu).</p>
-                <br>
-                <img class="formation_img" src="images/Logo_UFCV.jpg" alt="Logo de l'Association UFCV">
-                <h3>Association UFCV</h3>
-                <h4>Apprenti</h4>
-                <h5>France, Amiens (80)</h5>
-                <br>
-                <p>Diplôme du BAFA obtenu en Juillet 2021.</p>
-                <br>
-                <img class="formation_img" src="images/logo_edouard_branly.png" alt="Logo du Lycée Edouard Branly">
-                <h3>Lycée Edouard Branly</h3>
-                <h4>Etudiant</h4>
-                <h5>France, Amiens (80)</h5>
-                <br>
-                <p>Diplôme du BAC Technologique STI2D option Systèmes d’Information et Numérique (Mention Assez Bien) obtenu en Juin 2021.</p>
-                <br>
-                <img class="formation_img" src="images/logo_villers_bretonneux.jpg" alt="Logo de Villers-Bretonneux">
-                <h3>Collège Villers-Bretonneux</h3>
-                <h4>Elèves</h4>
-                <h5>France, Villers-Bretonneux (80)</h5>
-                <br>
-                <p>Diplôme national du brevet des collèges (Mention Très Bien) obtenu en Juin 2018.</p>
-                <br>
-                <div class="Line"></div>
-                <h2>Mon Parcours</h2>
-                <div class="Line"></div>
-                <br>
-                <img class="formation_img" src="images/interrogation_img" alt="Image point d'interrogation">
-                <h3>Recherche d'alternance</h3>
-                <h4>Développeur Web</h4>
-                <h5>France, Lille (59)</h5>
-                <br>
-                <p>Actuellement en recherche d’une alternance pour ma 3éme année de Bachelor.</p>
-                <br>
-                <img class="formation_img" src="images/logoCRIStAL.svg" alt="Logo du laboratoire CRIStAL">
-                <h3>CRIStAL</h3>
-                <h4>Développeur Web</h4>
-                <h5>France, Villeneuve d'Ascq (59)</h5>
-                <br>
-                <p>Stage en entreprise de 6 semaines du 16 Mai au 24 Juin 2022.</p>
-                <br>
-                <img class="formation_img" src="images/logo_familles_rurales.jpg" alt="Logo de l'association Familles Rurales">
-                <h3>Association Familles Rurales</h3>
-                <h4>Animateur</h4>
-                <h5>France, Marcelcave (80)</h5>
-                <br>
-                <p>Animateur en centre de loisirs du 12 Juillet au 6 Août 2021.</p>
-                <br>
-                <img class="formation_img" src="images/logo_diabolo.png" alt="Logo de l'association Diabolo">
-                <h3>Association Diabolo</h3>
-                <h4>Animateur</h4>
-                <h5>France, Gironde (33)</h5>
-                <br>
-                <p>Stage pratique en colonie de vacances pour l’obtention du BAFA du 03 Août au 21 Août 2020.</p>
-                <br>
-                <img class="formation_img" src="images/logo_sncf.jpg" alt="Logo de la SNCF">
-                <h3>SNCF</h3>
-                <h4>Stagiaire</h4>
-                <h5>France, Amiens (80)</h5>
-                <br>
-                <p>Stage d’observation en entreprise au service informatique du 27 Novembre au 3 Décembre 2017.</p>
-                <br>
-                <div class="Line"></div>
-                <h2>Mes Certifications</h2>
-                <div class="Line"></div>
-                <br>
-                <img class="formation_img" src="images/pix.png" alt="Image de la certification pix">
-                <h3>Certification Pix</h3>
-                <h4>Etudiant</h4>
-                <h5>France, Amiens (80)</h5>
-                <br>
-                <p>Certification Pix obtenu le 23 Mars 2023 avec le Lycée Edouard Branly avec un 394 points.</p>
-                <br>
-            </div>
-            <div class="grey">
-                <br>
-                <div class="Line"></div>
-                <h2>Mes Compétences</h2>
-                <div class="Line"></div>
-                <br>
-                <h3>Développement</h3>
-                <div class="competences">
-                    <p class="txt_competences"><img class="competences_img" src="images/logo_html.png" alt="Logo du langage informatique HTML5"> HTML <progress value="3" max="5"></progress></p>
+        <section class="section--project container">
+            <div class="card">
+                <div class="card--entete">
+                    <img class="img-fluid card--entete__img"
+                         src="img/illustrations/illustration_card/maptyapp.png">
                 </div>
-                <div class="competences">
-                    <p class="txt_competences"><img class="competences_img" src="images/logo_css.png" alt="Logo du langage informatique CSS3"> CSS <progress value="2" max="5"></progress></p>
+                <div class="card--body">
+                    <h2 class="card--body__title">MaptyApp</h2>
+                    <p class="card--body__description">Application permettant d'ajouter des points sur une carte
+                        JavaScript</p>
+                    <div class="card--body__container">
+                        <button class="card--body__btn github">
+                            <ion-icon class="icon-github"
+                                      name="logo-github"></ion-icon>
+                            GitHub
+                        </button>
+                        <button class="card--body__btn">
+                            Lien
+                            <ion-icon class="link-outline"
+                                      name="link-outline"></ion-icon>
+                        </button>
+                    </div>
                 </div>
-                <div class="competences">
-                    <p class="txt_competences"><img class="competences_img" src="images/logo_js.png" alt="Logo du langage de programmation JavaScript"> JS <progress value="1" max="5"></progress></p>
-                </div>
-                <div class="competences">
-                    <p class="txt_competences"><img class="competences_img" src="images/logo_php.png" alt="Logo du langage de programmation PHP"> PHP <progress value="2" max="5"></progress></p>
-                </div>
-                <div class="competences">
-                    <p class="txt_competences"><img class="competences_img" src="images/logo_git.png" alt="Logo de Git"> Git <progress value="2" max="5"></progress></p>
-                </div>
-                <div class="competences">
-                    <p class="txt_competences"><img class="competences_img" src="images/logo_c++.png" alt="Logo du langage de programmation C++"> C++ <progress value="3" max="5"></progress></p>
-                </div>
-                <h3>Design</h3>
-                <div class="competences">
-                    <p class="txt_competences"><img class="competences_img" src="images/figma_logo.png" alt="Logo de Figma"> Figma <progress value="3" max="5"></progress></p>
-                </div>
-                <div class="competences">
-                    <p class="txt_competences"><img class="competences_img" src="images/logo_adobe.png" alt="Logo de Adobe"> Adobe <progress value="1" max="5"></progress></p>
-                </div>
-                <h3>Outils</h3>
-                <div class="competences">
-                    <p class="txt_competences"><img class="competences_img" src="images/visual-studio-code-1.svg" alt="Logo de Visual Sutdio Code"> VS Code <progress value="4" max="5"></progress></p>
-                </div>
-                <div class="competences">
-                    <p class="txt_competences"><img class="competences_img" src="images/logo_github.png" alt="Logo de GitHub"> GitHub <progress value="3" max="5"></progress></p>
-                </div>
-                <div class="competences">
-                    <p class="txt_competences"><img class="competences_img" src="images/logo_docker.png" alt="Logo de Docker"> Docker <progress value="2" max="5"></progress></p>
-                </div>
-                <h3>Quelques autres langages que j'apprendrais :</h3>
-                <ul>
-                    <li>BootStrap</li>
-                    <li>Vue.JS</li>
-                    <li>React</li>
-                    <li>Angular</li>
-                    <li>Node.JS</li>
-                    <li>C#</li>
-                    <li>...</li>
-                </ul>
-                <br>
             </div>
-            <div>
-                <div class="Line"></div>
-                <h2>Portfolio</h2>
-                <div class="Line"></div>
-                <br>
-                <p>Lors de mes études et de mon apprentissage, j’ai effectué différents projets web, petit ou grand, pour en apprendre plus sur le développement et l’informatique pour ainsi, améliorer mes compétences.</p>
-                <br>
-                <p>Vous en trouverez une liste juste en dessous, trié par catégorie de développement et de thèmes. Bon visionnage.</p>
-                <br>
+            <div class="card">
+                <div class="card--entete">
+                    <img class="img-fluid card--entete__img"
+                         src="img/illustrations/illustration_card/maptyapp.png">
+                </div>
+                <div class="card--body">
+                    <h2 class="card--body__title">MaptyApp</h2>
+                    <p class="card--body__description">Application permettant d'ajouter des points sur une carte
+                        JavaScript</p>
+                    <div class="card--body__container">
+                        <button class="card--body__btn github">
+                            <ion-icon class="icon-github"
+                                      name="logo-github"></ion-icon>
+                            GitHub
+                        </button>
+                        <button class="card--body__btn">
+                            Lien
+                            <ion-icon class="link-outline"
+                                      name="link-outline"></ion-icon>
+                        </button>
+                    </div>
+                </div>
             </div>
-            <div class="grey">
-                <br>
-                <div class="Line"></div>
-                <h2>Développement Web</h2>
-                <div class="Line"></div>
-                <br>
-                <p>Ici, voici une liste non-exhaustive de mes projets web. Vous en trouverez d’autres sur mon profil GitHub.</p>
-                <br>
-                <button class="Fleches_defilement"><img src="images/fleche_gauche.png" alt=""></button>
-                <button class="Fleches_defilement"><img src="images/fleche_droite.png" alt=""></button>
-                <!-- AJOUTER LES IMAGES ET LIENS DES SITES A METTRE DANS LE PORTFOLIO -->
-                <br>
+            <div class="card">
+                <div class="card--entete">
+                    <img class="img-fluid card--entete__img"
+                         src="img/illustrations/illustration_card/maptyapp.png">
+                </div>
+                <div class="card--body">
+                    <h2 class="card--body__title">MaptyApp</h2>
+                    <p class="card--body__description">Application permettant d'ajouter des points sur une carte
+                        JavaScript</p>
+                    <div class="card--body__container">
+                        <button class="card--body__btn github">
+                            <ion-icon class="icon-github"
+                                      name="logo-github"></ion-icon>
+                            GitHub
+                        </button>
+                        <button class="card--body__btn">
+                            Lien
+                            <ion-icon class="link-outline"
+                                      name="link-outline"></ion-icon>
+                        </button>
+                    </div>
+                </div>
             </div>
-            <div>
-                <br>
-                <div class="Line"></div>
-                <h2>Streaming</h2>
-                <br>
-                <!-- REVOIR LE TEXTE DE STREAMING -->
-                <br>
-                <!-- Add a placeholder for the Twitch embed -->
-                <div id="twitch-embed"></div>
-    
-                <!-- Load the Twitch embed script -->
-                <script src="https://player.twitch.tv/js/embed/v1.js"></script>
-    
-                    <!-- Create a Twitch.Player object. This will render within the placeholder div -->
-                    <script type="text/javascript">
-                    new Twitch.Player("twitch-embed", {
-                        channel: "babyluckyyy"
-                    });
-                </script>
-                <br>
-                <iframe
-                    id="chat_embed"
-                    src="https://www.twitch.tv/embed/babyluckyyy/chat?parent=www.example.com"
-                    height="500"
-                    width="350">
-                </iframe>
-                <br>
+            <div class="card">
+                <div class="card--entete">
+                    <img class="img-fluid card--entete__img"
+                         src="img/illustrations/illustration_card/maptyapp.png">
+                </div>
+                <div class="card--body">
+                    <h2 class="card--body__title">MaptyApp</h2>
+                    <p class="card--body__description">Application permettant d'ajouter des points sur une carte
+                        JavaScript</p>
+                    <div class="card--body__container">
+                        <button class="card--body__btn github">
+                            <ion-icon class="icon-github"
+                                      name="logo-github"></ion-icon>
+                            GitHub
+                        </button>
+                        <button class="card--body__btn">
+                            Lien
+                            <ion-icon class="link-outline"
+                                      name="link-outline"></ion-icon>
+                        </button>
+                    </div>
+                </div>
             </div>
-            <div class="grey">
-                <br>
-                <div class="Line"></div>
-                <h2>Contactez-moi</h2>
-                <div class="Line"></div>
-                <br>
-                <p>Un problème ? Une question ? Une suggestion ? Remplissez le formulaire suivant pour me contacter.</p>
-                <br>
-                <form action="POST">
-                    Nom : <input type="text" required>
-                    <br>
-                    Prénom : <input type="text" required>
-                    <br>
-                    E-mail : <input type="email" name="" id="" required>
-                    <br>
-                    Téléphone : <input type="tel" name="" id="" required>
-                    <br>
-                    Objet : <input type="text" required>
-                    <br>
-                    Message : <textarea name="" id="" cols="30" rows="10" required></textarea>
-                    <br>
-                    <!-- AJOUT DU CAPTCHA ANTI BOT -->
-                    <br>
-                    <input type="submit" value="Envoyer la demande de contact">
-                </form>
-                <br>
-                <p>*Vos données personnelles ne seront ni revendues, ni stockées, ni publiées.</p>
-                <br>
+            <div class="card">
+                <div class="card--entete">
+                    <img class="img-fluid card--entete__img"
+                         src="img/illustrations/illustration_card/maptyapp.png">
+                </div>
+                <div class="card--body">
+                    <h2 class="card--body__title">MaptyApp</h2>
+                    <p class="card--body__description">Application permettant d'ajouter des points sur une carte
+                        JavaScript</p>
+                    <div class="card--body__container">
+                        <button class="card--body__btn github">
+                            <ion-icon class="icon-github"
+                                      name="logo-github"></ion-icon>
+                            GitHub
+                        </button>
+                        <button class="card--body__btn">
+                            Lien
+                            <ion-icon class="link-outline"
+                                      name="link-outline"></ion-icon>
+                        </button>
+                    </div>
+                </div>
             </div>
-            <div>
-                <br>
-                <div class="Line"></div>
-                <h2>Me Suivre</h2>
-                <div class="Line"></div>
-                <br>
-                <a href="https://www.twitch.tv/babyluckyyy"><img src="images/logo_twitch.png" alt="Logo de Twitch"></a>
-                <br>
-                <p>Twitch</p>
-                <br>
-                <a href="https://www.youtube.com/channel/UC7khCjeAIoQ3SzMDVPx7YKw"><img src="images/logo_youtube.png" alt="Logo de YouTube"></a>
-                <br>
-                <p>YouTube</p>
-                <br>
-                <a href="https://www.linkedin.com/in/lucas-madranges-8292ab269/"><img src="images/logo_linkedin.png" alt="Logo de Linkedin"></a>
-                <br>
-                <p>Linkedin</p>
-                <br>
-                <a href="https://github.com/LucasMadranges"><img src="images/logo_github.png" alt="Logo de GitHub"></a>
-                <br>
-                <p>GitHub</p>
-                <br>
-                <img src="images/logo_discord.png" alt="Logo Discord">
-                <br>
-                <p>Discord</p>
-                <br>
+            <div class="card">
+                <div class="card--entete">
+                    <img class="img-fluid card--entete__img"
+                         src="img/illustrations/illustration_card/maptyapp.png">
+                </div>
+                <div class="card--body">
+                    <h2 class="card--body__title">MaptyApp</h2>
+                    <p class="card--body__description">Application permettant d'ajouter des points sur une carte
+                        JavaScript</p>
+                    <div class="card--body__container">
+                        <button class="card--body__btn github">
+                            <ion-icon class="icon-github"
+                                      name="logo-github"></ion-icon>
+                            GitHub
+                        </button>
+                        <button class="card--body__btn">
+                            Lien
+                            <ion-icon class="link-outline"
+                                      name="link-outline"></ion-icon>
+                        </button>
+                    </div>
+                </div>
             </div>
-            <div class="grey">
-                <br>
-                <div class="Line"></div>
-                <p>Télécharger mon CV</p>
-                <div class="Line"></div>
-                <br>
+            <div class="card">
+                <div class="card--entete">
+                    <img class="img-fluid card--entete__img"
+                         src="img/illustrations/illustration_card/maptyapp.png">
+                </div>
+                <div class="card--body">
+                    <h2 class="card--body__title">MaptyApp</h2>
+                    <p class="card--body__description">Application permettant d'ajouter des points sur une carte
+                        JavaScript</p>
+                    <div class="card--body__container">
+                        <button class="card--body__btn github">
+                            <ion-icon class="icon-github"
+                                      name="logo-github"></ion-icon>
+                            GitHub
+                        </button>
+                        <button class="card--body__btn">
+                            Lien
+                            <ion-icon class="link-outline"
+                                      name="link-outline"></ion-icon>
+                        </button>
+                    </div>
+                </div>
             </div>
-        </aside>
-        <footer>
-            <div>
-                <br>
-                <img class="img_footer" src="images/map_marker.png" alt="Image Marker Maps">
-                <p>Amiens, Hauts-de-France, France</p>
-                <img class="img_footer" src="images/logo_mail.png" alt="Image Mail">
-                <p>lucas.madranges[at]icloud.com</p>
-                <img class="img_footer" src="images/iphone.png" alt="Image téléphone">
-                <p>(+33)7.82.73.96.15</p>
-                <br>
-                <p>Copyright © 2023 Lucas Madranges</p>
+            <div class="card">
+                <div class="card--entete">
+                    <img class="img-fluid card--entete__img"
+                         src="img/illustrations/illustration_card/maptyapp.png">
+                </div>
+                <div class="card--body">
+                    <h2 class="card--body__title">MaptyApp</h2>
+                    <p class="card--body__description">Application permettant d'ajouter des points sur une carte
+                        JavaScript</p>
+                    <div class="card--body__container">
+                        <button class="card--body__btn github">
+                            <ion-icon class="icon-github"
+                                      name="logo-github"></ion-icon>
+                            GitHub
+                        </button>
+                        <button class="card--body__btn">
+                            Lien
+                            <ion-icon class="link-outline"
+                                      name="link-outline"></ion-icon>
+                        </button>
+                    </div>
+                </div>
             </div>
-            <div>
-                <p>Mon Matériel de Stream</p>
-                <p>Dernière Mise à jour : 00.00.0000</p>
-                <p>Notes de mise à jour</p>
-            </div>
-        </footer>
+        </section>
     </body>
 </html>
