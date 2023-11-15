@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Sen-regular';
-    src: url('font_family/Sen-Regular.ttf') format('truetype');
+    src: url('../font_family/Sen-Regular.ttf') format('truetype');
 }
 
 * {
